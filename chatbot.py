@@ -18,7 +18,7 @@ class DocQAChatbot:
     """A chatbot for Document Question and Answer"""
     def __init__(self):
         self.open_ai_key = os.getenv("OPENAI_API_KEY")
-        self.redis_url = "redis://default:I8NSzEwhgPXFFY4r74wfHCShhgn7u3z0@redis-19621.c44.us-east-1-2.ec2.cloud.redislabs.com:19621"
+        self.redis_url = os.getenv("REDIS_URL")
 
     def get_embeddings(self):
         """Return OpenAI Embeddings"""
