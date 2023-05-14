@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "constitutionbot"
+version = "0.1.0"
+description = ""
+authors = ["Richard <kogunyale01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit-chat = "^0.0.2.2"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.146"
+openai = "^0.27.4"
+python-magic = "^0.4.27"
+unstructured = "^0.5.13"
+pdfminer-six = "^20221105"
+chromadb = "^0.3.21"
+tiktoken = "^0.3.3"
+redis = "^4.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
